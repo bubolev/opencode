@@ -6,7 +6,7 @@ import { LSPServer } from "./server"
 import { z } from "zod"
 import { Config } from "../config/config"
 import { spawn } from "child_process"
-import { Severity, SeverityMap } from "./severity"
+import { SeverityMap } from "./severity"
 
 export namespace LSP {
   const log = Log.create({ service: "lsp" })
